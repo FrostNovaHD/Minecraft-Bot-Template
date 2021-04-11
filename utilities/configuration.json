@@ -1,0 +1,30 @@
+{
+    "bot": {
+        "account": {
+            "email": "",
+            "password": ""
+        },
+        "server": {
+            "ip": "",
+            "port": 25565
+        },
+        "minecraft": {
+            "version": "1.16.5",
+            "authenticator": "mojang"
+        }
+    },
+
+    "reconnect": {
+        "enabled": true,
+        "timeout": 30000
+    },
+
+    "command": {
+        "prefix": "!",
+        "permissions": {
+            "administrators": [
+                "username"
+            ]
+        }
+    }
+}
