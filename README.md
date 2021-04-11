@@ -102,4 +102,4 @@ The configuration allows you to easily change the important information about yo
 ```
 
 ## Licence
-[ISC License]()
+[ISC License](https://github.com/itstomsci/Minecraft-Bot-Template/blob/main/LICENSE)
