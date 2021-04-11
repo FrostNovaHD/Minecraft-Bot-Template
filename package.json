@@ -1,0 +1,15 @@
+{
+  "name": "minecraft-bot-template",
+  "version": "1.0.0",
+  "description": "Minecraft Bot Template",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mineflayer": "^3.6.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Tomsci",
+  "license": "ISC"
+}
