@@ -16,10 +16,10 @@ function loadCommands(directory = "./commands/") {
             delete require.cache[require.resolve(directoryPath)];
             
             let fileName = path.basename(directoryPath);
-            let pull = require(directoryPath);
+            let command = require(directoryPath);
 
-            bot.commands.set(pull.configuration.name, pull);
-            if(pull.configuration.aliases) return pull.configuration.aliases.forEach(alias => bot.aliases.set(alias, pull.configuration.name));
+            bot.commands.set(command.configuration.name, command);
+            if(command.configuration.aliases) return command.configuration.aliases.forEach(alias => bot.aliases.set(alias, command.configuration.name));
 
             if(process.uptime() < 5) {
                 console.log(`${fileName} loaded (command)`);
